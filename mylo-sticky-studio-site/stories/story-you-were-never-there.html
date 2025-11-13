@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mylo Sticky Studio</title>
+  <meta name="description" content="Stories that stay with you — by Mile Radulovic.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Mylo Sticky Studio</div>
+    <nav class="nav">
+      <a href="/index.html">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/stories.html">Stories</a>
+      <a href="/about.html">About / Contact</a>
+    </nav>
+  </header>
+
+<main>
+  <section class="section">
+    <div class="kicker">Short Story</div>
+    <h1>You Were Never There</h1>
+    <div class="story-meta">
+      <span class="badge">👁️ Views: <span data-views>0</span></span>
+      <span class="badge">👍 Likes: <span data-likes>0</span></span>
+      <button id="likeBtn" class="badge" style="cursor:pointer">Give a Like</button>
+    </div>
+    <p class="lead">A moody, dreamlike story. Replace this text with your full story.</p>
+    <blockquote>
+      In the dim room, shadows moved like old memories. He woke with the weight of a name he could not remember...
+    </blockquote>
+    <p>Add your full story text here. You can create more pages by duplicating this file and changing the title and slug.</p>
+
+    <div class="comments">
+      <h3>Comments</h3>
+      <!-- Utterances: GitHub-based public comments. Requires your repo to have Issues enabled. -->
+      <script src="https://utteranc.es/client.js"
+              repo="MileMylo/mylostickystudio-comments"
+              issue-term="pathname"
+              label="comments"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+  </section>
+</main>
+<script>
+  // initialize counters for this story using CountAPI (free)
+  setupCounters("mylostickystudio.com/story-you-were-never-there");
+</script>
+
+  <footer class="site-footer">
+    <div>© 2025 Mylo Sticky Studio • Mile Radulovic</div>
+  </footer>
+  <script src="/assets/main.js"></script>
+</body>
+</html>
